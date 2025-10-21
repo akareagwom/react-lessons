@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+// import "./App.css";
 import Button from "./ui components/Button";
 import Form from "./Event-Handlers/Form";
 
@@ -25,9 +25,11 @@ function App() {
     {isPacked ? 'name' + ' ✅' : 'name'}
   </li>
       </div> */}
-      <div>
-        <div className=""></div>
-        <Form />
+      <div className="p-6 ">
+        <div className=" flex items-center justify-center">
+
+        <Form/>
+        </div>
       </div>
     </>
   );
